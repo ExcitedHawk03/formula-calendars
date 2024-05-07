@@ -1,12 +1,27 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import Button from '@/components/Button.vue'
 </script>
 
 <template>
   <Header title="Homepagina" />
-  <main></main>
+  <main>
+    <div className="home-content">
+      <Button title="F1 Kalender" to="f1calendar" />
+      <Button title="F2 Kalender" to="f2calendar" />
+      <Button title="F3 Kalender" to="f3calendar" />
+    </div>
+  </main>
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 800px;
+}
+</style>
