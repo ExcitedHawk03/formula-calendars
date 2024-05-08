@@ -9,7 +9,7 @@ export default {
   },
   methods: {
     goToCalendar() {
-      router.push(`/${this.to}`)
+      router.push(`${this.to}`)
     }
   }
 }

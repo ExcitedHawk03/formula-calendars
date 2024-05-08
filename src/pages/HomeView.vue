@@ -8,9 +8,9 @@ import Button from '@/components/Button.vue'
   <Header title="Homepagina" />
   <main>
     <div className="home-content">
-      <Button title="F1 Kalender" to="f1calendar" />
-      <Button title="F2 Kalender" to="f2calendar" />
-      <Button title="F3 Kalender" to="f3calendar" />
+      <Button title="F1 Kalender" to="f1-calendar" />
+      <Button title="F2 Kalender" to="f2-calendar" />
+      <Button title="F3 Kalender" to="f3-calendar" />
     </div>
   </main>
   <Footer />
