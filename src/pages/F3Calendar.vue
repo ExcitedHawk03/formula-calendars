@@ -3,13 +3,13 @@ import Button from '@/components/Button.vue'
 import Card from '@/components/Card.vue'
 import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
-import { circuits } from '@/data/f3'
+import { grandPrixs } from '@/data/f3'
 
 export default {
   name: 'F3 Calendar',
   data() {
     return {
-      circuits
+      grandPrixs
     }
   },
   components: {
@@ -27,9 +27,9 @@ export default {
     <main>
       <div class="calendar-container">
         <Card
-          v-for="(circuit, index) in circuits"
+          v-for="(grandPrix, index) in grandPrixs"
           :key="index"
-          :circuit="circuit"
+          :grandPrix="grandPrix"
           racingClass="Formula 1"
         />
       </div>
