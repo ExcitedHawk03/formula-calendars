@@ -11,7 +11,7 @@ export default {
     cardClass() {
       const dateNow = moment().format('DD/MM/YYYY')
       const currentDate = moment(dateNow, 'DD/MM/YYYY')
-      const grandPrixDate = moment(this.grandPrix.date, 'DD/MM/YYYY')
+      const grandPrixDate = moment(this.grandPrix.dates.endDate, 'DD/MM/YYYY')
       return currentDate.isBefore(grandPrixDate) ? 'green-card' : 'red-card'
     }
   }
@@ -23,7 +23,7 @@ export default {
     <img :src="grandPrix.image" alt="" />
     <div class="card-body">
       <h4 class="card-title">{{ grandPrix.name }}</h4>
-      <p>{{ grandPrix.date }}</p>
+      <p>{{ grandPrix.dates.beginDate }} t/m {{ grandPrix.dates.endDate }}</p>
     </div>
   </div>
 </template>
