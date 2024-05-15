@@ -1,6 +1,7 @@
 <script>
 import Button from '@/components/Button.vue'
 import Card from '@/components/Card.vue'
+import Clock from '@/components/Clock.vue'
 import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
 import { grandPrixs } from '@/data/f1'
@@ -16,7 +17,8 @@ export default {
     Header,
     Footer,
     Card,
-    Button
+    Button,
+    Clock
   }
 }
 </script>
@@ -25,6 +27,9 @@ export default {
   <div>
     <Header title="F1 Kalender" />
     <main>
+      <div class="clock-container">
+        <Clock />
+      </div>
       <div class="calendar-container">
         <Card
           v-for="(grandPrix, index) in grandPrixs"
@@ -42,11 +47,13 @@ export default {
 </template>
 
 <style scoped>
+.clock-container,
 .calendar-container {
   flex-wrap: wrap;
   padding: 15px;
 }
 
+.clock-container,
 .calendar-container,
 .home-navigation-section {
   display: flex;
