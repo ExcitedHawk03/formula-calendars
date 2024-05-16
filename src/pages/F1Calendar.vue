@@ -31,12 +31,7 @@ export default {
         <Clock />
       </div>
       <div class="calendar-container">
-        <Card
-          v-for="(grandPrix, index) in grandPrixs"
-          :key="index"
-          :grandPrix="grandPrix"
-          racingClass="Formula 1"
-        />
+        <Card v-for="(grandPrix, index) in grandPrixs" :key="index" :grandPrix="grandPrix" />
       </div>
       <div class="home-navigation-section">
         <Button title="Back to home" to="/" />
