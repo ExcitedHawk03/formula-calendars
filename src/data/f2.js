@@ -116,8 +116,8 @@ export const grandPrixs = [
     round: 12,
     name: 'Grand Prix van Azerbeidzjan',
     dates: {
-      beginDate: '13-08-2024',
-      endDate: '15-08-2024'
+      beginDate: '13-09-2024',
+      endDate: '15-09-2024'
     },
     image: azerbaijanImg
   },

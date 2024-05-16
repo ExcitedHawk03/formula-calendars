@@ -23,10 +23,9 @@ import abuDhabiImg from '../assets/images/flags/abuDhabi.jpeg'
 export const grandPrixs = [
   {
     name: 'Grand Prix van Bahrein',
-    date: '29-02-2023 t/m 02-03-2024',
     dates: {
-      beginDate: '',
-      endDate: ''
+      beginDate: '29-02-2023',
+      endDate: '02-03-2024'
     },
     image: bahrainImg
   },
@@ -56,10 +55,9 @@ export const grandPrixs = [
   },
   {
     name: 'Grand Prix van China',
-    date: '19-04-2024 t/m 21-04-2024',
     dates: {
-      beginDate: '05-04-2024',
-      endDate: '07-04-2024'
+      beginDate: '19-04-2024',
+      endDate: '21-04-2024'
     },
     image: chinaImg
   },
