@@ -2,7 +2,7 @@
 
 <template>
   <footer>
-    <div>&copy; {{ new Date().getFullYear() }} Copyright: Motorsport Kalender</div>
+    <div>&copy; {{ new Date().getFullYear() }} Copyright: Motorsport Calendar</div>
   </footer>
 </template>
 
