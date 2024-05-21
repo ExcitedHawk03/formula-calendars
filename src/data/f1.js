@@ -22,7 +22,7 @@ import abuDhabiImg from '../assets/images/flags/abuDhabi.jpeg'
 
 export const grandPrixs = [
   {
-    name: 'Grand Prix van Bahrein',
+    name: 'Bahrain',
     dates: {
       beginDate: '29-02-2023',
       endDate: '02-03-2024'
@@ -30,7 +30,7 @@ export const grandPrixs = [
     image: bahrainImg
   },
   {
-    name: 'Grand Prix van Saudi Arabië',
+    name: 'Saudi Arabia',
     dates: {
       beginDate: '07-03-2024',
       endDate: '09-03-2024'
@@ -38,7 +38,7 @@ export const grandPrixs = [
     image: saudiArabiaImg
   },
   {
-    name: 'Grand Prix van Australië',
+    name: 'Australia',
     dates: {
       beginDate: '22-03-2024',
       endDate: '24-03-2024'
@@ -46,7 +46,7 @@ export const grandPrixs = [
     image: australiaImg
   },
   {
-    name: 'Grand Prix van Japan',
+    name: 'Japan',
     dates: {
       beginDate: '05-04-2024',
       endDate: '07-04-2024'
@@ -54,7 +54,7 @@ export const grandPrixs = [
     image: japanImg
   },
   {
-    name: 'Grand Prix van China',
+    name: 'China',
     dates: {
       beginDate: '19-04-2024',
       endDate: '21-04-2024'
@@ -62,7 +62,7 @@ export const grandPrixs = [
     image: chinaImg
   },
   {
-    name: 'Grand Prix van Miami',
+    name: 'Miami',
     dates: {
       beginDate: '03-05-2024',
       endDate: '05-05-2024'
@@ -70,7 +70,7 @@ export const grandPrixs = [
     image: unitedStatesImg
   },
   {
-    name: 'Grand Prix van Emilia-Romagna',
+    name: 'Emilia-Romagna',
     dates: {
       beginDate: '17-05-2024',
       endDate: '19-05-2024'
@@ -78,7 +78,7 @@ export const grandPrixs = [
     image: italyImg
   },
   {
-    name: 'Grand Prix van Monaco',
+    name: 'Monaco',
     dates: {
       beginDate: '24-05-2024',
       endDate: '26-05-2024'
@@ -86,7 +86,7 @@ export const grandPrixs = [
     image: monacoImg
   },
   {
-    name: 'Grand Prix van Canada',
+    name: 'Canada',
     dates: {
       beginDate: '07-06-2024',
       endDate: '09-06-2024'
@@ -94,7 +94,7 @@ export const grandPrixs = [
     image: canadaImg
   },
   {
-    name: 'Grand Prix van Spanje',
+    name: 'Spain',
     dates: {
       beginDate: '21-06-2024',
       endDate: '23-06-2024'
@@ -102,7 +102,7 @@ export const grandPrixs = [
     image: spainImg
   },
   {
-    name: 'Grand Prix van Oostenrijk',
+    name: 'Austria',
     dates: {
       beginDate: '28-06-2024',
       endDate: '30-06-2024'
@@ -110,7 +110,7 @@ export const grandPrixs = [
     image: austriaImg
   },
   {
-    name: 'Grand Prix van Groot-Brittannië',
+    name: 'Great Britain',
     dates: {
       beginDate: '05-07-2024',
       endDate: '07-07-2024'
@@ -118,7 +118,7 @@ export const grandPrixs = [
     image: greatBritainImg
   },
   {
-    name: 'Grand Prix van Hungary',
+    name: 'Hungary',
     dates: {
       beginDate: '19-07-2024',
       endDate: '21-07-2024'
@@ -126,7 +126,7 @@ export const grandPrixs = [
     image: hungaryImg
   },
   {
-    name: 'Grand Prix van België',
+    name: 'Belgium',
     dates: {
       beginDate: '26-07-2024',
       endDate: '28-07-2024'
@@ -134,7 +134,7 @@ export const grandPrixs = [
     image: belgiumImg
   },
   {
-    name: 'Grand Prix van Nederland',
+    name: 'Netherlands',
     dates: {
       beginDate: '23-08-2024',
       endDate: '25-08-2024'
@@ -142,7 +142,7 @@ export const grandPrixs = [
     image: netherlandsImg
   },
   {
-    name: 'Grand Prix van Italië',
+    name: 'Italy',
     dates: {
       beginDate: '30-08-2024',
       endDate: '01-09-2024'
@@ -150,7 +150,7 @@ export const grandPrixs = [
     image: italyImg
   },
   {
-    name: 'Grand Prix van Azerbeidzjan',
+    name: 'Azerbaijan',
     dates: {
       beginDate: '13-09-2024',
       endDate: '15-09-2024'
@@ -158,7 +158,7 @@ export const grandPrixs = [
     image: azerbaijanImg
   },
   {
-    name: 'Grand Prix van Singapore',
+    name: 'Singapore',
     dates: {
       beginDate: '20-09-2024',
       endDate: '22-09-2024'
@@ -166,7 +166,7 @@ export const grandPrixs = [
     image: singaporeImg
   },
   {
-    name: 'Grand Prix van de VS',
+    name: 'United States',
     dates: {
       beginDate: '18-10-2024',
       endDate: '20-10-2024'
@@ -174,7 +174,7 @@ export const grandPrixs = [
     image: unitedStatesImg
   },
   {
-    name: 'Grand Prix van Mexico',
+    name: 'Mexico',
     dates: {
       beginDate: '25-10-2024',
       endDate: '27-10-2024'
@@ -182,7 +182,7 @@ export const grandPrixs = [
     image: mexicoImg
   },
   {
-    name: 'Grand Prix van Brazilië',
+    name: 'Brazil',
     dates: {
       beginDate: '01-11-2024',
       endDate: '03-11-2024'
@@ -190,7 +190,7 @@ export const grandPrixs = [
     image: brazilImg
   },
   {
-    name: 'Grand Prix van Las Vegas',
+    name: 'Las Vegas',
     dates: {
       beginDate: '21-11-2024',
       endDate: '23-11-2024'
@@ -198,7 +198,7 @@ export const grandPrixs = [
     image: unitedStatesImg
   },
   {
-    name: 'Grand Prix van Qatar',
+    name: 'Qatar',
     dates: {
       beginDate: '29-11-2024',
       endDate: '01-12-2024'
@@ -206,7 +206,7 @@ export const grandPrixs = [
     image: qatarImg
   },
   {
-    name: 'Grand Prix van Abu Dhabi',
+    name: 'Abu Dhabi',
     dates: {
       beginDate: '06-12-2024',
       endDate: '08-12-2024'

@@ -5,12 +5,12 @@ import Button from '@/components/Button.vue'
 </script>
 
 <template>
-  <Header title="Homepagina" />
+  <Header title="Home Page" />
   <main>
     <div className="home-content">
-      <Button title="F1 Kalender" to="f1-calendar" />
-      <Button title="F2 Kalender" to="f2-calendar" />
-      <Button title="F3 Kalender" to="f3-calendar" />
+      <Button title="F1 Calendar" to="f1-calendar" />
+      <Button title="F2 Calendar" to="f2-calendar" />
+      <Button title="F3 Calendar" to="f3-calendar" />
     </div>
   </main>
   <Footer />

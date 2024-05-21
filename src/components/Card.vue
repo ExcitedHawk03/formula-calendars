@@ -37,7 +37,7 @@ export default {
     <img :src="grandPrix.image" alt="flag" />
     <div class="card-body">
       <h4 class="card-title">{{ grandPrix.name }}</h4>
-      <p>{{ grandPrix.dates.beginDate }} t/m {{ grandPrix.dates.endDate }}</p>
+      <p>{{ grandPrix.dates.beginDate }} / {{ grandPrix.dates.endDate }}</p>
       <p>{{ differenceInDays }}</p>
     </div>
   </div>

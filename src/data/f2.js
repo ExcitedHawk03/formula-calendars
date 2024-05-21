@@ -15,7 +15,7 @@ import abuDhabiImg from '../assets/images/flags/abuDhabi.jpeg'
 export const grandPrixs = [
   {
     round: 1,
-    name: 'Grand Prix van Bahrein',
+    name: 'Bahrain',
     dates: {
       beginDate: '29-02-2024',
       endDate: '02-03-2024'
@@ -24,7 +24,7 @@ export const grandPrixs = [
   },
   {
     round: 2,
-    name: 'Grand Prix van Saudi Arabië',
+    name: 'Saudi Arabia',
     dates: {
       beginDate: '07-03-2024',
       endDate: '09-03-2024'
@@ -33,7 +33,7 @@ export const grandPrixs = [
   },
   {
     round: 3,
-    name: 'Grand Prix van Australië',
+    name: 'Australia',
     dates: {
       beginDate: '22-03-2024',
       endDate: '24-03-2024'
@@ -42,7 +42,7 @@ export const grandPrixs = [
   },
   {
     round: 4,
-    name: 'Grand Prix van Emilia Romagna',
+    name: 'Emilia-Romagna',
     dates: {
       beginDate: '17-05-2024',
       endDate: '19-05-2024'
@@ -51,7 +51,7 @@ export const grandPrixs = [
   },
   {
     round: 5,
-    name: 'Grand Prix van Monaco',
+    name: 'Monaco',
     dates: {
       beginDate: '23-05-2024',
       endDate: '26-05-2024'
@@ -60,7 +60,7 @@ export const grandPrixs = [
   },
   {
     round: 6,
-    name: 'Grand Prix van Spanje',
+    name: 'Spain',
     dates: {
       beginDate: '21-06-2024',
       endDate: '23-06-2024'
@@ -69,7 +69,7 @@ export const grandPrixs = [
   },
   {
     round: 7,
-    name: 'Grand Prix van Oostenrijk',
+    name: 'Austria',
     dates: {
       beginDate: '28-06-2024',
       endDate: '30-06-2024'
@@ -78,7 +78,7 @@ export const grandPrixs = [
   },
   {
     round: 8,
-    name: 'Grand Prix van Groot Brittannië',
+    name: 'Great Britain',
     dates: {
       beginDate: '05-07-2024',
       endDate: '07-07-2024'
@@ -87,7 +87,7 @@ export const grandPrixs = [
   },
   {
     round: 9,
-    name: 'Grand Prix van Hongarije',
+    name: 'Hungary',
     dates: {
       beginDate: '19-07-2024',
       endDate: '21-07-2024'
@@ -96,7 +96,7 @@ export const grandPrixs = [
   },
   {
     round: 10,
-    name: 'Grand Prix van België',
+    name: 'Belgium',
     dates: {
       beginDate: '26-07-2024',
       endDate: '28-07-2024'
@@ -105,7 +105,7 @@ export const grandPrixs = [
   },
   {
     round: 11,
-    name: 'Grand Prix van Italië',
+    name: 'Italy',
     dates: {
       beginDate: '30-08-2024',
       endDate: '01-09-2024'
@@ -114,7 +114,7 @@ export const grandPrixs = [
   },
   {
     round: 12,
-    name: 'Grand Prix van Azerbeidzjan',
+    name: 'Azerbaijan',
     dates: {
       beginDate: '13-09-2024',
       endDate: '15-09-2024'
@@ -123,7 +123,7 @@ export const grandPrixs = [
   },
   {
     round: 13,
-    name: 'Grand Prix van Qatar',
+    name: 'Qatar',
     dates: {
       beginDate: '29-11-2024',
       endDate: '01-12-2024'
@@ -132,7 +132,7 @@ export const grandPrixs = [
   },
   {
     round: 14,
-    name: 'Grand Prix van Abu Dhabi',
+    name: 'Abu Dhabi',
     dates: {
       beginDate: '06-12-2024',
       endDate: '08-12-2024'
