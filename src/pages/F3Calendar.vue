@@ -55,7 +55,15 @@ export default {
   justify-content: center;
 }
 
-Footer {
-  position: relative;
+@media only screen and (min-width: 600px) {
+  Footer {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  Footer {
+    position: fixed;
+  }
 }
 </style>
