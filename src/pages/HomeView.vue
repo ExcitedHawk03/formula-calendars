@@ -26,6 +26,10 @@ import Button from '@/components/Button.vue'
 </template>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+}
+
 .home-content {
   display: flex;
   flex-direction: column;

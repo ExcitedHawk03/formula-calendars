@@ -54,10 +54,4 @@ export default {
   display: flex;
   justify-content: center;
 }
-
-@media only screen and (min-width: 400px) {
-  Footer {
-    position: relative;
-  }
-}
 </style>

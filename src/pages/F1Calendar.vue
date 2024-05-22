@@ -54,8 +54,4 @@ export default {
   display: flex;
   justify-content: center;
 }
-
-Footer {
-  position: relative;
-}
 </style>
