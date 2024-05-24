@@ -22,7 +22,7 @@ export default {
 <style scoped>
 button {
   display: block;
-  width: 450px;
+  width: 90%;
   margin: 12px 0px 12px 0px;
   border: 1px solid #24282b;
   border-radius: 3px;
@@ -31,5 +31,6 @@ button {
   color: white;
   background-color: blue;
   padding: 30px;
+  cursor: pointer;
 }
 </style>

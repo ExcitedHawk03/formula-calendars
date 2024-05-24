@@ -46,6 +46,16 @@ import Button from '@/components/Button.vue'
   align-items: center;
   border-radius: 15px;
   padding: 15px;
+  width: 70%;
+}
+
+img {
+  width: 100%;
+  object-fit: fill;
+}
+
+Button {
+  width: 100%;
 }
 
 .f1-content {
@@ -58,12 +68,5 @@ import Button from '@/components/Button.vue'
 
 .f3-content {
   background-color: rgb(218, 60, 32);
-}
-
-.f1-content img,
-.f2-content img,
-.f3-content img {
-  width: 100%;
-  object-fit: fill;
 }
 </style>
