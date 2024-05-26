@@ -22,7 +22,7 @@ export default {
 <style scoped>
 button {
   display: block;
-  width: 90%;
+  width: 50%;
   margin: 12px 0px 12px 0px;
   border: 1px solid black;
   border-radius: 25px;

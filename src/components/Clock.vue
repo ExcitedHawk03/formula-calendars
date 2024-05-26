@@ -26,11 +26,11 @@ export default {
   background-color: blue;
   color: white;
   font-weight: bold;
-  font-size: 25px;
+  font-size: larger;
   gap: 15px;
   border-radius: 25px;
   border: 1px solid black;
-  width: 90%;
+  width: 50%;
 }
 
 img {
