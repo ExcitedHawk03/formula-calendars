@@ -24,8 +24,7 @@ button {
   display: block;
   width: 90%;
   margin: 12px 0px 12px 0px;
-  border: 1px solid #24282b;
-  border-radius: 3px;
+  border: 1px solid black;
   border-radius: 25px;
   text-align: center;
   color: white;
