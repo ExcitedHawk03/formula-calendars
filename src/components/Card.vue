@@ -98,7 +98,7 @@ export default {
 
 .winner-section p {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .winner-section img {

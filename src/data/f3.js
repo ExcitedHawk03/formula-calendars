@@ -8,6 +8,11 @@ import greatBritainImg from '../assets/images/flags/greatBritain.jpeg'
 import hungaryImg from '../assets/images/flags/hungary.jpeg'
 import belgiumImg from '../assets/images/flags/belgium.jpeg'
 
+import browningImg from '../assets/images/drivers/f3/browning.jpeg'
+import beganovicImg from '../assets/images/drivers/f3/beganovic.jpeg'
+import meguetounifImg from '../assets/images/drivers/f3/meguetounif.jpeg'
+import miniImg from '../assets/images/drivers/f3/mini.jpeg'
+
 export const grandPrixs = [
   {
     round: 1,
@@ -16,7 +21,9 @@ export const grandPrixs = [
       beginDate: '29-02-2024',
       endDate: '02-03-2024'
     },
-    image: bahrainImg
+    image: bahrainImg,
+    winner: 'Luke Browning',
+    winnerImage: browningImg
   },
   {
     round: 2,
@@ -25,7 +32,9 @@ export const grandPrixs = [
       beginDate: '22-03-2024',
       endDate: '24-03-2024'
     },
-    image: australiaImg
+    image: australiaImg,
+    winner: 'Dino Beganovic',
+    winnerImage: beganovicImg
   },
   {
     round: 3,
@@ -34,7 +43,9 @@ export const grandPrixs = [
       beginDate: '17-05-2024',
       endDate: '19-05-2024'
     },
-    image: italyImg
+    image: italyImg,
+    winner: 'Semi Meguetounif',
+    winnerImage: meguetounifImg
   },
   {
     round: 4,
@@ -43,7 +54,9 @@ export const grandPrixs = [
       beginDate: '23-05-2024',
       endDate: '26-05-2024'
     },
-    image: monacoImg
+    image: monacoImg,
+    winner: 'Gabriel Mini',
+    winnerImage: miniImg
   },
   {
     round: 5,
