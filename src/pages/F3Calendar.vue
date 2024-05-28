@@ -42,7 +42,6 @@ export default {
 </template>
 
 <style scoped>
-.clock-container,
 .calendar-container {
   flex-wrap: wrap;
   padding: 15px;
@@ -55,9 +54,7 @@ export default {
   justify-content: center;
 }
 
-@media only screen and (min-width: 1400px) {
-  Footer {
-    position: fixed;
-  }
+.clock-container {
+  padding: 15px;
 }
 </style>

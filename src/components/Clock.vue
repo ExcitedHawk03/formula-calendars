@@ -26,7 +26,7 @@ export default {
   background-color: blue;
   color: white;
   font-weight: bold;
-  font-size: larger;
+  font-size: large;
   gap: 15px;
   border-radius: 25px;
   border: 1px solid black;
