@@ -25,7 +25,7 @@ export default {
 
 <template>
   <div>
-    <Header title="F2 Calendar" />
+    <Header title="F1 Calendar" />
     <main>
       <div class="clock-container">
         <Clock />
@@ -42,7 +42,6 @@ export default {
 </template>
 
 <style scoped>
-.clock-container,
 .calendar-container {
   flex-wrap: wrap;
   padding: 15px;
@@ -53,5 +52,9 @@ export default {
 .home-navigation-section {
   display: flex;
   justify-content: center;
+}
+
+.clock-container {
+  padding: 15px;
 }
 </style>
