@@ -25,7 +25,7 @@ export default {
 
 <template>
   <div>
-    <Header title="F1 Calendar" />
+    <Header title="F2 Calendar" />
     <main>
       <div class="clock-container">
         <Clock />

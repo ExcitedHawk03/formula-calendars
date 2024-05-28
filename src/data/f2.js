@@ -12,6 +12,11 @@ import azerbaijanImg from '../assets/images/flags/azerbeidzjan.jpeg'
 import qatarImg from '../assets/images/flags/qatar.jpeg'
 import abuDhabiImg from '../assets/images/flags/abuDhabi.jpeg'
 
+import maloneyImg from '../assets/images/drivers/f2/maloney.jpeg'
+import fittipaldiImg from '../assets/images/drivers/f2/fittipaldi.jpeg'
+import hadjarImg from '../assets/images/drivers/f2/hadjar.jpeg'
+import osullivanImg from '../assets/images/drivers/f2/osullivan.jpeg'
+
 export const grandPrixs = [
   {
     round: 1,
@@ -20,7 +25,9 @@ export const grandPrixs = [
       beginDate: '29-02-2024',
       endDate: '02-03-2024'
     },
-    image: bahrainImg
+    image: bahrainImg,
+    winner: 'Zane Maloney',
+    winnerImage: maloneyImg
   },
   {
     round: 2,
@@ -29,7 +36,9 @@ export const grandPrixs = [
       beginDate: '07-03-2024',
       endDate: '09-03-2024'
     },
-    image: saudiArabiaImg
+    image: saudiArabiaImg,
+    winner: 'Enzo Fittipaldi',
+    winnerImage: fittipaldiImg
   },
   {
     round: 3,
@@ -38,7 +47,9 @@ export const grandPrixs = [
       beginDate: '22-03-2024',
       endDate: '24-03-2024'
     },
-    image: australiaImg
+    image: australiaImg,
+    winner: 'Isack Hadjar',
+    winnerImage: hadjarImg
   },
   {
     round: 4,
@@ -47,7 +58,9 @@ export const grandPrixs = [
       beginDate: '17-05-2024',
       endDate: '19-05-2024'
     },
-    image: italyImg
+    image: italyImg,
+    winner: 'Isack Hadjar',
+    winnerImage: hadjarImg
   },
   {
     round: 5,
@@ -56,7 +69,9 @@ export const grandPrixs = [
       beginDate: '23-05-2024',
       endDate: '26-05-2024'
     },
-    image: monacoImg
+    image: monacoImg,
+    winner: 'Zak O Sullivan',
+    winnerImage: osullivanImg
   },
   {
     round: 6,
