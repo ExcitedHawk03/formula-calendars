@@ -20,6 +20,11 @@ import brazilImg from '../assets/images/flags/brazil.jpeg'
 import qatarImg from '../assets/images/flags/qatar.jpeg'
 import abuDhabiImg from '../assets/images/flags/abuDhabi.jpeg'
 
+import verstappenImg from '../assets/images/drivers/f1/verstappen.jpeg'
+import sainzImg from '../assets/images/drivers/f1/sainz.jpeg'
+import norrisImg from '../assets/images/drivers/f1/norris.jpeg'
+import leclercImg from '../assets/images/drivers/f1/leclerc.jpeg'
+
 export const grandPrixs = [
   {
     name: 'Bahrain',
@@ -27,7 +32,9 @@ export const grandPrixs = [
       beginDate: '29-02-2023',
       endDate: '02-03-2024'
     },
-    image: bahrainImg
+    image: bahrainImg,
+    winner: 'Max Verstappen',
+    winnerImage: verstappenImg
   },
   {
     name: 'Saudi Arabia',
@@ -35,7 +42,9 @@ export const grandPrixs = [
       beginDate: '07-03-2024',
       endDate: '09-03-2024'
     },
-    image: saudiArabiaImg
+    image: saudiArabiaImg,
+    winner: 'Max Verstappen',
+    winnerImage: verstappenImg
   },
   {
     name: 'Australia',
@@ -43,7 +52,9 @@ export const grandPrixs = [
       beginDate: '22-03-2024',
       endDate: '24-03-2024'
     },
-    image: australiaImg
+    image: australiaImg,
+    winner: 'Carlos Sainz',
+    winnerImage: sainzImg
   },
   {
     name: 'Japan',
@@ -51,7 +62,9 @@ export const grandPrixs = [
       beginDate: '05-04-2024',
       endDate: '07-04-2024'
     },
-    image: japanImg
+    image: japanImg,
+    winner: 'Max Verstappen',
+    winnerImage: verstappenImg
   },
   {
     name: 'China',
@@ -59,7 +72,9 @@ export const grandPrixs = [
       beginDate: '19-04-2024',
       endDate: '21-04-2024'
     },
-    image: chinaImg
+    image: chinaImg,
+    winner: 'Max Verstappen',
+    winnerImage: verstappenImg
   },
   {
     name: 'Miami',
@@ -67,7 +82,9 @@ export const grandPrixs = [
       beginDate: '03-05-2024',
       endDate: '05-05-2024'
     },
-    image: unitedStatesImg
+    image: unitedStatesImg,
+    winner: 'Lando Norris',
+    winnerImage: norrisImg
   },
   {
     name: 'Emilia-Romagna',
@@ -75,7 +92,9 @@ export const grandPrixs = [
       beginDate: '17-05-2024',
       endDate: '19-05-2024'
     },
-    image: italyImg
+    image: italyImg,
+    winner: 'Max Verstappen',
+    winnerImage: verstappenImg
   },
   {
     name: 'Monaco',
@@ -83,7 +102,9 @@ export const grandPrixs = [
       beginDate: '24-05-2024',
       endDate: '26-05-2024'
     },
-    image: monacoImg
+    image: monacoImg,
+    winner: 'Charles Leclerc',
+    winnerImage: leclercImg
   },
   {
     name: 'Canada',

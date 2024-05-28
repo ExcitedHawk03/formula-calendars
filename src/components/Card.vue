@@ -34,11 +34,17 @@ export default {
 
 <template>
   <div :class="cardClass">
-    <img :src="grandPrix.image" alt="flag" />
+    <img class="card-image" :src="grandPrix.image" alt="flag" />
     <div class="card-body">
       <h4 class="card-title">{{ grandPrix.name }}</h4>
       <p>{{ grandPrix.dates.beginDate }} / {{ grandPrix.dates.endDate }}</p>
       <p>{{ differenceInDays }}</p>
+      <hr class="seperate-line" v-if="grandPrix.winner" />
+      <div class="winner-section" v-if="grandPrix.winner">
+        <p>Winner:</p>
+        <img :src="grandPrix.winnerImage" alt="Race winner" />
+        <p>{{ grandPrix.winner }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -62,7 +68,8 @@ export default {
   border-radius: 15px;
 }
 
-.card-body {
+.card-body h4,
+.card-body p {
   margin: 0px 0px 0px 15px;
 }
 
@@ -75,13 +82,30 @@ export default {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-img {
+.card-image {
   width: 100%;
   height: 150px;
 }
 
-.container {
-  padding: 2px 16px;
-  font-size: small;
+.seperate-line {
+  border: 1px solid black;
+}
+
+.winner-section {
+  display: flex;
+  align-items: center;
+}
+
+.winner-section p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.winner-section img {
+  margin: 10px 0px 10px 7px;
+  width: 30%;
+  height: 30%;
+  object-fit: fill;
+  border-radius: 50%;
 }
 </style>
