@@ -20,6 +20,10 @@ import Button from '@/components/Button.vue'
         <img src="../assets/images/other/f3.png" alt="F3 logo" />
         <Button title="F3 Calendar" to="f3-calendar" />
       </div>
+      <div class="f1-academy">
+        <img src="../assets/images/other/f1-academy-logo.jpeg" alt="F1 Academy logo" />
+        <Button title="F1 Academy Calendar" to="f1-academy-calendar" />
+      </div>
     </div>
   </main>
   <Footer />
@@ -40,7 +44,8 @@ import Button from '@/components/Button.vue'
 
 .f1-content,
 .f2-content,
-.f3-content {
+.f3-content,
+.f1-academy {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,5 +73,9 @@ Button {
 
 .f3-content {
   background-color: rgb(218, 60, 32);
+}
+
+.f1-academy {
+  background-color: purple;
 }
 </style>

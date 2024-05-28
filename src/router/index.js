@@ -3,6 +3,7 @@ import HomeView from '../pages/HomeView.vue'
 import F1Calendar from '../pages/F1Calendar.vue'
 import F2Calendar from '../pages/F2Calendar.vue'
 import F3Calendar from '../pages/F3Calendar.vue'
+import F1AcademyCalendar from '../pages/F1AcademyCalendar.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/f3-calendar',
       name: 'F3 Calendar',
       component: F3Calendar
+    },
+    {
+      path: '/f1-academy-calendar',
+      name: 'F1 Academy Calendar',
+      component: F1AcademyCalendar
     }
   ]
 })
